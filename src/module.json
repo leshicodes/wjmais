@@ -9,6 +9,11 @@
       "name": "Surge",
       "discord": "Surge#5715",
       "email": "surged20@gmail.com"
+    },
+    {
+      "name": "Leshi",
+      "discord": "leshi",
+      "email": "spamgalaxy2198+wjmais@gmail.com"
     }
   ],
   "minimumCoreVersion": "12",
@@ -33,8 +38,8 @@
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "4.2.0",
-          "verified": "5.0.1",
-          "maximum": "5.0.x"
+          "verified": "5.2.4",
+          "maximum": "5.2.x"
         }
       }
     ],
