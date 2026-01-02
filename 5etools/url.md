@@ -1,0 +1,1 @@
+https://raw.githubusercontent.com/TheGiddyLimit/homebrew/refs/heads/master/collection/Sesserdrix%3B%20Wildjammer%20-%20More%20Adventures%20in%20Space.json
