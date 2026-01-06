@@ -13,8 +13,8 @@
 					"Surge",
 					"LeshiCodes"
 				],
-				"url": "https://beta.wiki.spelljammer.leshicodes.info",
-				"version": "0.98.0",
+				"url": "https://wiki.spelljammer.leshicodes.info",
+				"version": "0.98.1",
 				"targetSchema": "1.0.0"
 			}
 		],
