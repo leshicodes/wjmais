@@ -14,7 +14,7 @@
 					"LeshiCodes"
 				],
 				"url": "https://wiki.spelljammer.leshicodes.info",
-				"version": "0.98.1",
+				"version": "0.98.2",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -8730,1089 +8730,1089 @@
 			]
 		}
 	],
-    "race": [
-        {
-            "name": "Astral Elf",
-            "source": "WJMAiS",
-            "page": 10,
-            "lineage": "VRGR",
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "darkvision": 60,
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Astral Fire",
-                    "entries": [
-                        "You know one of the following cantrips of your choice: {@spell dancing lights}, {@spell light}, or {@spell sacred flame}. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race)."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Fey Ancestry",
-                    "entries": [
-                        "You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Keen Senses",
-                    "entries": [
-                        "You have proficiency in the {@skill Perception} skill."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Starlight Step",
-                    "entries": [
-                        "As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Astral Trance",
-                    "entries": [
-                        "You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.",
-                        "Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the {@book Player's Handbook|PHB}. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.",
-                    "Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell on the Astral Plane can live to be more than 750 years old."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/astral-elf.png"
-                        }
-                    }
-                ]
-            },
-            "skillProficiencies": [
-                {
-                    "perception": true
-                }
-            ],
-            "additionalSpells": [
-                {
-                    "innate": {
-                        "_": {
-                            "_": [
-                                {
-                                    "choose": "level=0|class=Bard",
-                                    "count": 1
-                                }
-                            ]
-                        }
-                    }
-                }
-            ],
-            "traitTags": [
-                "Darkvision"
-            ]
-        },
-        {
-            "name": "Autognome",
-            "source": "WJMAiS",
-            "page": 10,
-            "lineage": "VRGR",
-            "creatureTypes": [
-                "construct"
-            ],
-            "size": [
-                "S"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Construct."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Armored Casing",
-                    "entries": [
-                        "You are encased in thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Built for Success",
-                    "entries": [
-                        "You can add a {@dice d4} to one attack roll, ability check, or saving throw you make, and you can do so after seeing the {@dice d20} roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Healing Machine",
-                    "entries": [
-                        "If the {@spell mending} spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: {@spell cure wounds}, {@spell healing word}, {@spell mass cure wounds}, {@spell mass healing word}, and {@spell spare the dying}."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mechanical Nature",
-                    "entries": [
-                        "You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being {@condition paralyzed} or {@condition poisoned}. You don't need to eat, drink, or breathe."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Sentry's Rest",
-                    "entries": [
-                        "When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Specialized Design",
-                    "entries": [
-                        "You gain two tool proficiencies of your choice, selected from the {@book Player's Handbook|PHB}."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.",
-                    "An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.",
-                    "Like gnomes, autognomes can live for centuries, typically up to 500 years."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/autognome.png"
-                        }
-                    }
-                ]
-            },
-            "resist": [
-                "poison"
-            ],
-            "conditionImmune": [
-                "disease"
-            ]
-        },
-        {
-            "name": "Dohwar",
-            "source": "WJMAiS",
-            "page": 10,
-            "lineage": "VRGR",
-            "size": [
-                "S"
-            ],
-            "speed": {
-                "walk": 25,
-                "swim": 50
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Belly Slide",
-                    "entries": [
-                        "While prone, you can belly slide instead of crawl. You move as if you were standing and your normal movement speed increases by 10 feet. You can't move across difficult terrain or take the Dash action while belly sliding."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Cold Adaptation",
-                    "entries": [
-                        "You are naturally adapted to cold climates, as described in {@book chapter 5 of the DMG|DMG|5|Extreme Cold}. You also have resistance to cold damage."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Merchant's Senses",
-                    "entries": [
-                        "Whenever you perform an Intelligence ({@skill History}) check or use tools to determine the origin and value of an object, you are considered proficient in the check and can add double your proficiency bonus. When you reach 3rd level, you learn to cast {@spell Detect Magic} and {@spell Identify} as a ritual."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Silent Speech",
-                    "entries": [
-                        "You can speak telepathically to any creature within 30 feet of you. They understand you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mind Reading",
-                    "entries": [
-                        "You can cast the {@spell Detect Thoughts} spell a number of times per day equal to your proficiency modifier, but you can only pick up surface thoughts. If a creature is aware of the dohwar's telepathy, they can make an Intelligence saving throw to resist the effect. While reading a creature's surface thoughts, you have advantage on social rolls against the target."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Skillful. Adventurous. Graceful. These are words that few would use to describe the dohwar. These heavily feathered and flightless birds resemble large and lean penguins. They are highly motivated traders with a passion for mercantilism, engaged in an endless trade war against their Great Rival: the arcane. To date, the arcane have yet to notice.",
-                    {
-                        "type": "entries",
-                        "name": "Clumsy Birds",
-                        "entries": [
-                            "If all someone knew about dohwar is that they were avian, it might lead them to think that dohwar are highly dextrous like other avian creatures. This is anything but the truth. Dohwar tend to be incredibly clumsy and sluggish in their movements. They have small bodies which work against the few of them that decide to take up a life of martial combat. The few who do push past these limits and become warriors often end up becoming members of the 'legendary' Deathsqueeler Legion, an army of space swine riding dohwar with bravery that is easily mistaken for reckless insanity."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Unusual Merchants",
-                        "entries": [
-                            "Given the prevailing culture for dohwar in the Known Spheres is highly mercantile, one could be forgiven for expecting them to have a gift for persuasion. This is also not the case. Dohwar tend to forego social grace in favor of developing highly aggressive personality traits that often come across as off-putting to others. More than a few travelers have found themselves in the position of having a group of dohwar repeatedly reciting prices for their products, shouting over the other dohwar, all while offering prices for valuable items the customer might have. A dohwar merchant doesn't really haggle or strike deals as much as they keep shouting prices until their target buys something. What's odd is that this sales method seems to work."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Secretly Organized",
-                        "entries": [
-                            "Few know that the dohwar are a telepathic species, able to quickly and efficiently communicate with one another, even while they are screaming trade offers at a customer. They can even use this telepathy to read the minds of others, giving them a distinct advantage in making a deal. Dohwar use this secret telepathy, their disheveled appearance, and their unusual style to exploit others in trade. However messy and poorly organized they appear to others, they are actually an incredibly well organized trade machine that thoroughly believes every other group out there is out to get them. This high degree of paranoia and organization has helped make the dohwar incredibly successful, much to the confusion of others."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/dohwar.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": "Dohwar"
-                }
-            ],
-            "resist": [
-                "cold"
-            ],
-            "additionalSpells": [
-                {
-                    "innate": {
-                        "3": {
-                            "ritual": [
-                                "detect magic",
-                                "identify"
-                            ]
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Dracon",
-            "source": "WJMAiS",
-            "page": 11,
-            "lineage": "VRGR",
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 40
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Aggressive Friendliness",
-                    "entries": [
-                        "You have proficiency in the {@skill Persuasion} skill."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Communal",
-                    "entries": [
-                        "During a long rest, you visit each of your companions to build camaraderie. Choose up to 6 friendly creatures you are spending the rest with at a campsite, inn, etc. Each of these creatures gains temporary hit points equal to your level on the following day."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Equine Build",
-                    "entries": [
-                        "You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mount",
-                    "entries": [
-                        "Your quadruped anatomy allows you to act as a mount for a creature of Small size or smaller. While mounted, your rider may take their turn simultaneous with yours. If they do, they forego their normal turn this round. A rider can't move other than to dismount."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Natural Weapon",
-                    "entries": [
-                        "Your feet count as natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier instead of the normal damage for an unarmed strike."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "The dracon are a new species to the spheres that some refer to as dragon centaurs. They have the body, tail, and flat feet of a brontosaur, the arms and torso of a human, and finally the head of a dragon.",
-                    {
-                        "type": "entries",
-                        "name": "Aggressively Friendly",
-                        "entries": [
-                            "No one in the known spheres is fully aware of where the dracon have come from. They simply started showing up at the edges of the known spheres a century ago. What is known about them is that from the first meeting, the dracon have been rather friendly and open to working with the people of other species found among the stars."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Herd Instincts",
-                        "entries": [
-                            "Dracon tend to be vegetarians with a strong communal instinct, rarely found alone. The communal urge that dracon often feel can sometimes even manifest in being physically ill when separated from their family. Those forced into this position by fate or circumstance often end up finding a new community to belong to, dracon or otherwise. It's not rare to find a reasonably adventurous dracon to adopt an adventuring party as their new family."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Complex Kinship",
-                        "entries": [
-                            "The leader of a herd of dracon is known as a 'kaba'. A kaba isn't chosen for being the strongest or the quickest or the wisest of the herd, but rather through a complex system of genealogy. This system has baffled sages from across the spheres for its complexity, yet the dracon find it to be quite simple."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/dracon.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "draconic": true
-                }
-            ],
-            "skillProficiencies": [
-                {
-                    "persuasion": true
-                }
-            ]
-        },
-        {
-            "name": "Giff",
-            "source": "WJMAiS",
-            "page": 12,
-            "lineage": "VRGR",
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 30,
-                "swim": 30
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Gunpowder Training",
-                    "entries": [
-                        "You are proficient with and ignore the loading property of gunpowder firearms. Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls with firearms. The backfire score of any ship weapon you use as a Gunner is reduced by 1."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Headfirst Charge",
-                    "entries": [
-                        "If you move at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, you may attempt to shove that creature as a bonus action. Once you've used this trait, you are discombobulated and you can't use it again until you complete a short or long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Powerful Build",
-                    "entries": [
-                        "You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Standing upwards of 8 to 9 feet tall, giff (sometimes 'hippofolk') are a large, bulky, and muscular race of well-dressed and posh humanoid hippopotami. They have a well deserved reputation as mercenaries, boasting strong military efficiency, bravery that some might call suicidal, and loyalty to a fault, so long as the job pays well, doesn't break their cultural codes, and it pays in their preferred currency: gunpowder.",
-                    {
-                        "type": "entries",
-                        "name": "Guns Are Their Religion",
-                        "entries": [
-                            "The giff have an unrivaled passion for gunpowder and explosions. Although they handle firearms and explosives with expert efficiency, they don't really outgrow that child-like glee at seeing something explode. The brighter the flash, the louder the bang, the stronger the burst of flame, the happier the giff."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Surprising Grace",
-                        "entries": [
-                            "While most folk can quickly tell that a giff is stocky and muscular, what catches most people by surprise is how quick and graceful they can be. An ignorant foe might size up a giff and assume them to be a lumbering and sluggish foe, akin to an ogre. When the fight starts, what they find is that a giff's sizable frame is no hindrance to their speed and fluidity of motion."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Loyalty",
-                        "entries": [
-                            "Giff are reputed for their loyalty to a contract holder, being willing to handle even the most dangerous jobs so long as they are fittingly paid in gunpowder for it. Nevertheless, there is one major exception: giff won't fire upon other giff."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/giff.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": "Giff",
-                    "anyStandard": 1
-                }
-            ],
-            "traitTags": [
-                "Powerful Build"
-            ]
-        },
-        {
-            "name": "Hadozee",
-            "source": "WJMAiS",
-            "page": 13,
-            "lineage": "VRGR",
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 30,
-                "climb": 30
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Prehensile Feet",
-                    "entries": [
-                        "As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Monkey Fighting",
-                    "entries": [
-                        "When you make a melee weapon attack on your turn while climbing, you can increase the reach of a single attack by 5 feet. In addition, you can take the disengage action as a bonus action while climbing."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Glide",
-                    "entries": [
-                        "When you fall at least 10 feet above the ground, you can use your reaction to extend your skin membranes to glide horizontally a number of feet equal to your walking speed, and you take 0 damage from the fall. You determine the direction of the glide."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Hadozee, often referred to as \"deck apes\", are a species of tall and slender ape-like creatures covered in shaggy hair, often with a thick mane, a protruding or flat snout, and bat-like membranes that connect their arms, body, and legs.",
-                    {
-                        "type": "entries",
-                        "name": "Natural Sailors",
-                        "entries": [
-                            "Hadozee tend to have a strong urge to explore the world around them, to seek the horizon, to find what lies just beyond the range of their sight. Early on this drove them to explore their forest home world, which lead to a mastery of tree-top mobility. Their mobility, their mastery, and their passion to explore make hadozee some of the most sought after sailors in the Known Spheres."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Fully Prehensile",
-                        "entries": [
-                            "Unlike most humanoids, hadozee are fully prehensile. With both their hands and their feet they can grasp onto ropes, pick up objects, climb ladders, use weapons, and so on. Aboard a ship, this allows a hadozee to climb ropes while still retaining the full use of a pair of hands; a truly valuable trait to any sailor on the sea of night."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Elf Friends",
-                        "entries": [
-                            "The Elven Imperial Navy is known for embodying elvish arrogance. They often look down on other species they come across, like humans, dwarves, and orcs. The hadozee are one of the few they hold in high esteem."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/hadozee.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "anyStandard": 1
-                }
-            ]
-        },
-        {
-            "name": "Mind Flayer Renegade",
-            "source": "WJMAiS",
-            "page": 13,
-            "lineage": "VRGR",
-            "creatureTypes": [
-                "aberration"
-            ],
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "darkvision": 60,
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are an Aberration."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Telepathy",
-                    "entries": [
-                        "You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mind Blast",
-                    "entries": [
-                        "As an action, you can release a blast of psionic energy in a 15-foot cone. All creatures in that cone must make an Intelligence saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). On a failed save, a creature takes {@dice 2d8} psychic damage. This damage increases by {@dice 1d8} at 5th level ({@dice 3d8}) and 17th level ({@dice 4d8}). Starting at 11th level, creatures who fail their saving throw are {@condition stunned} until the end of your next turn.",
-                        "You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Devour Brain",
-                    "entries": [
-                        "When you devour the brain of an intelligent creature, you can acquire memories that the creature had in life. When you do, you gain proficiency in a skill or tool of your choice that the creature had. When you use this ability again, you can replace this proficiency with another from the new brain. In addition, with DM approval, you can also gather information from the creature's memory, as if casting {@spell Speak With Dead}."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Mind flayers, sometimes known as illithids, are among the oldest and most evil creatures in the multiverse. Their appearance is that of a humanoid with a squidlike face. They are known for their subjugation of other species, devouring the brains of intelligent creatures, and reproducing by transforming humanoids through a terribly painful process known as ceremorphosis.",
-                    {
-                        "type": "entries",
-                        "name": "Future History",
-                        "entries": [
-                            "Legend has it that mind flayers come from the end of time. In this timeline, mind flayers managed to subjugate all of the Material Plane and bring the Astral Sea to its knees before their power. With this total control, the gods themselves died from a lack of worship."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Renegades",
-                        "entries": [
-                            "Following the purge of so many elder brains, many illithids found themselves free of an elder brain's control for the first time. While some just went and joined other colonies, many decided to remain free. They learned that they didn't require eating brains to survive, just to feed the elder brain. Now free of that control, these mind flayer renegades look to find new purpose in an often hostile universe."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/mind-flayer-renegade.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "undercommon": true,
-                    "deep speech": true
-                }
-            ],
-            "traitTags": [
-                "Darkvision"
-            ]
-        },
-        {
-            "name": "Plasmoid",
-            "source": "WJMAiS",
-            "page": 14,
-            "lineage": "VRGR",
-            "creatureTypes": [
-                "ooze"
-            ],
-            "size": [
-                "M",
-                "S"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "darkvision": 60,
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are an Ooze."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Amorphous",
-                    "entries": [
-                        "You can squeeze through a space as narrow as 1 inch wide, provided you are not wearing or carrying anything. In addition, you have advantage on ability checks you make to initiate or escape a grapple."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Hold Breath",
-                    "entries": [
-                        "You can hold your breath for 1 hour."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Natural Resilience",
-                    "entries": [
-                        "You have resistance to acid and poison damage, and you have advantage on saving throws against being {@condition poisoned}."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Shape Self",
-                    "entries": [
-                        "As an action, you can reshape your body to assume a humanoid form with a head, up to two arms, and up to two legs, or revert to a limbless blob. While in a humanoid form, you can wear clothing and armor made for a Humanoid of your size.",
-                        "As a bonus action, you can extrude or retract a pseudopod up to 10 feet long and 6 inches wide. You can use this pseudopod to manipulate objects, open or close doors or containers, or pick up or set down a Tiny object. The pseudopod can't attack, activate magic items, or lift more than 10 pounds."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores.",
-                    "Plasmoids don't have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound.",
-                    "When plasmoids sleep, they lose their rigidity and spread out and are thus sometimes mistaken for a rock or some other feature of the environment."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/plasmoid.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "anyStandard": 1
-                }
-            ],
-            "resist": [
-                "acid",
-                "poison"
-            ],
-            "traitTags": [
-                "Darkvision"
-            ]
-        },
-        {
-            "name": "Scro",
-            "source": "WJMAiS",
-            "page": 15,
-            "lineage": "VRGR",
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "darkvision": 60,
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Relentless Endurance",
-                    "entries": [
-                        "The battles you need yet to fight are many, and death is not an option. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You regain the use of this feature when you finish a long rest."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Pack Tactics",
-                    "entries": [
-                        "You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Glory Kill",
-                    "entries": [
-                        "Scro warriors are known for digging their teeth into their foes and ripping flesh, bolstering their resolve for battle. As a bonus action, you can make a special melee weapon attack with your teeth. You are proficient with this attack. If you hit, you deal piercing damage equal to {@dice 1d6} + your Strength modifier and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Scro appear almost identical to their orcish cousins, though they tend to be more articulate and have better posture. They retain their orcish strength in spite of having lost their more reckless aggression. This makes them appear far closer to soldiers in an army than grunts of a ferocious horde.",
-                    {
-                        "type": "entries",
-                        "name": "A Lost War",
-                        "entries": [
-                            "For as long as any sage can remember, elves have been in a constant state of war against orcs, or more generally goblinoids. About a thousand years ago, this conflict reached the spheres in an event known as the First Unhuman War. This war raged across numerous spheres and resulted in an Elven Imperial Navy victory, with the goblinoids being driven out of the known spheres."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "A War Rekindled",
-                        "entries": [
-                            "About a decade ago, orcish ships showed up on the periphery of the known spheres, attacking Elven Imperial Navy outposts and bases. The attack came fast, catching the complacent elves by surprise. These orcish ships were like nothing they had ever seen before. It wasn't long until they learned that these attackers called themselves the scro and that their goal was to bring down the Elven Imperial Navy in its entirety. Thus began the Second Unhuman War."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "A New Future",
-                        "entries": [
-                            "The scro are here to stay. They have taken back their home worlds and are standing strong against the Elven Imperial Navy. The scro have now turned their attention to freeing more of their groundling counterparts from the tyranny of Gruumsh's savage designs."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/scro.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "orc": true,
-                    "elvish": true
-                }
-            ],
-            "traitTags": [
-                "Darkvision"
-            ]
-        },
-        {
-            "name": "Thri-Kreen",
-            "source": "WJMAiS",
-            "page": 16,
-            "lineage": "VRGR",
-            "creatureTypes": [
-                "monstrosity"
-            ],
-            "size": [
-                "M",
-                "S"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "darkvision": 60,
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Monstrosity."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Chameleon Carapace",
-                    "entries": [
-                        "While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
-                        "In addition, you have advantage on Dexterity ({@skill Stealth}) checks made to {@action hide} in natural terrain."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Darkvision",
-                    "entries": [
-                        "You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Secondary Arms",
-                    "entries": [
-                        "You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Sleepless",
-                    "entries": [
-                        "You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest. You have advantage on saving throws against being magically put to sleep."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Thri-kreen Telepathy",
-                    "entries": [
-                        "You cannot speak non-thri-kreen languages verbally. Instead, you can communicate telepathically with willing creatures you can see within 120 feet. The creature must be able to understand at least one language. This telepathic connection requires no action and ends if either of you is {@condition incapacitated}, if you move more than 120 feet apart, or if either of you chooses to end it."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Psychic Fortitude",
-                    "entries": [
-                        "You have advantage on saving throws against being {@condition charmed} or {@condition frightened} by effects that deal psychic damage."
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings.",
-                    "Although thri-kreen don't sleep, they do require periods of inactivity to revitalize themselves. During these periods, they are fully aware of what's happening around them.",
-                    "Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy."
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/thri-kreen.png"
-                        }
-                    }
-                ]
-            },
-            "traitTags": [
-                "Darkvision",
-                "Natural Armor"
-            ]
-        },
-        {
-            "name": "Xixchil",
-            "source": "WJMAiS",
-            "page": 15,
-            "lineage": "VRGR",
-            "size": [
-                "M"
-            ],
-            "speed": {
-                "walk": 30
-            },
-            "entries": [
-                {
-                    "type": "entries",
-                    "name": "Creature Type",
-                    "entries": [
-                        "You are a Humanoid."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Chitinous Frame",
-                    "entries": [
-                        "Your hardened exoskeleton provides natural protection. While you aren't wearing armor, your AC is 13 + your Dexterity modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Surgical Artistry",
-                    "entries": [
-                        "You gain proficiency in {@skill Medicine} and one artisan's tool of your choice.",
-                        "In addition, during a long rest, you may visibly integrate ornamental materials, plating, or trophies into your body. This has no mechanical effect unless stated otherwise, but integrated items cannot be removed from you unwillingly."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Mantid Blades",
-                    "entries": [
-                        "Your lower forelimbs are natural weapons. They are melee weapons with the finesse and light properties.",
-                        "On a hit, they deal {@dice 1d4} slashing damage + your Strength or Dexterity modifier."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Biological Augmentation",
-                    "entries": [
-                        "You have enhanced your body through invasive modification. Choose one augmentation below. At 5th level, your chosen augmentation improves.",
-                        {
-                            "type": "list",
-                            "items": [
-                                {
-                                    "type": "item",
-                                    "name": "Buzzing Wings",
-                                    "entries": [
-                                        "{@b 1st level:} When you fall and are not {@condition incapacitated}, you can use your reaction to glide. When you do so, you reduce the falling damage you take by an amount equal to 30 feet, to a minimum of 0 damage, and you can move up to 30 feet horizontally before landing.",
-                                        "{@b 5th level:} As part of your movement on your turn, you can fly up to your walking speed."
-                                    ]
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "Silk Spinneret",
-                                    "entries": [
-                                        "{@b 1st level:} During a short or long rest, you can create up to 50 feet of silk rope or a net.",
-                                        "{@b 5th level:} You can also create fine silk garments, bindings, or similar items worth up to 30 gp during the same rest."
-                                    ]
-                                },
-                                {
-                                    "type": "item",
-                                    "name": "Venom Gland",
-                                    "entries": [
-                                        "{@b 1st level:} When you hit a creature with your mantid blades, you can deal an extra {@dice 1d4} poison damage once per turn.",
-                                        "{@b 5th level:} A creature damaged this way must succeed on a Constitution saving throw or be {@condition poisoned} until the start of your next turn. You can trigger this effect a number of times equal to your proficiency bonus per long rest."
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "fluff": {
-                "entries": [
-                    "Xixchil are six-limbed praying mantis-like mantoids. They are a bipedal species with a chitin exoskeleton. They have two pairs of forelimbs, the upper pair that extend out like normal humanoid arms, and a lower pair that take the shape of sharp, mantis-like blades.",
-                    {
-                        "type": "entries",
-                        "name": "Survival of the Fittest",
-                        "entries": [
-                            "The xixchil grew up on a Life world, densely packed with predators. From this start, they have a strong sense in survival of the fittest. This ideology has pervaded their societies and cultures for countless generations, but it hasn't made them cruel. To most, it simply means that it's important for every lifeform to improve itself and grow."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "The Body is a Home",
-                        "entries": [
-                            "This mentality has extended to the belief that bodies should be treated as the home of the soul. Like a home, one should not only improve it, but also make it an expression of the person within. As a result, xixchil embellish their exoskeleton with rich jewels, gems, armor, ornaments, and whatever else the xixchil believes expresses their uniqueness."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Born Surgeons",
-                        "entries": [
-                            "This passion for development and physical advancement has resulted in many xixchil developing a handy skill for surgery. While they adorn their own bodies with riches, they encourage other folk to do the same. Some specialist xixchil have gone as far as to develop techniques for replacing humanoid body parts with others. Many adventurers have gone to see a xixchil surgeon to replace or add a body part."
-                        ]
-                    },
-                    {
-                        "type": "entries",
-                        "name": "Expert Artisans",
-                        "entries": [
-                            "Although xixchil are best known for their surgeons, xixchil tend to love craftsmanship of all kinds. Surgeons craft bodies, while other artisans might assemble trinkets, or magical items, or beautiful artistic armor. No craft is looked down upon in xixchil society, as they are all some form of artistic expression of the unique xixchil artisan."
-                        ]
-                    }
-                ],
-                "images": [
-                    {
-                        "type": "image",
-                        "href": {
-                            "type": "external",
-                            "url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/xixchil.png"
-                        }
-                    }
-                ]
-            },
-            "languageProficiencies": [
-                {
-                    "common": true,
-                    "other": "Xixchil",
-                    "anyStandard": 1
-                }
-            ],
-            "skillProficiencies": [
-                {
-                    "medicine": true
-                }
-            ],
-            "traitTags": [
-                "Natural Armor"
-            ]
-        }
-    ],
+	"race": [
+		{
+			"name": "Astral Elf",
+			"source": "WJMAiS",
+			"page": 10,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Fire",
+					"entries": [
+						"You know one of the following cantrips of your choice: {@spell dancing lights}, {@spell light}, or {@spell sacred flame}. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Starlight Step",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Trance",
+					"entries": [
+						"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.",
+						"Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the {@book Player's Handbook|PHB}. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.",
+					"Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell on the Astral Plane can live to be more than 750 years old."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/astral-elf.png"
+						}
+					}
+				]
+			},
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"_": {
+							"_": [
+								{
+									"choose": "level=0|class=Bard",
+									"count": 1
+								}
+							]
+						}
+					}
+				}
+			],
+			"traitTags": [
+				"Darkvision"
+			]
+		},
+		{
+			"name": "Autognome",
+			"source": "WJMAiS",
+			"page": 10,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"construct"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armored Casing",
+					"entries": [
+						"You are encased in thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Built for Success",
+					"entries": [
+						"You can add a {@dice d4} to one attack roll, ability check, or saving throw you make, and you can do so after seeing the {@dice d20} roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Machine",
+					"entries": [
+						"If the {@spell mending} spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point). In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: {@spell cure wounds}, {@spell healing word}, {@spell mass cure wounds}, {@spell mass healing word}, and {@spell spare the dying}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mechanical Nature",
+					"entries": [
+						"You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being {@condition paralyzed} or {@condition poisoned}. You don't need to eat, drink, or breathe."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Specialized Design",
+					"entries": [
+						"You gain two tool proficiencies of your choice, selected from the {@book Player's Handbook|PHB}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.",
+					"An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.",
+					"Like gnomes, autognomes can live for centuries, typically up to 500 years."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/autognome.png"
+						}
+					}
+				]
+			},
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"disease"
+			]
+		},
+		{
+			"name": "Dohwar",
+			"source": "WJMAiS",
+			"page": 10,
+			"lineage": "VRGR",
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 25,
+				"swim": 50
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Belly Slide",
+					"entries": [
+						"While prone, you can belly slide instead of crawl. You move as if you were standing and your normal movement speed increases by 10 feet. You can't move across difficult terrain or take the Dash action while belly sliding."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cold Adaptation",
+					"entries": [
+						"You are naturally adapted to cold climates, as described in {@book chapter 5 of the DMG|DMG|5|Extreme Cold}. You also have resistance to cold damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Merchant's Senses",
+					"entries": [
+						"Whenever you perform an Intelligence ({@skill History}) check or use tools to determine the origin and value of an object, you are considered proficient in the check and can add double your proficiency bonus. When you reach 3rd level, you learn to cast {@spell Detect Magic} and {@spell Identify} as a ritual."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silent Speech",
+					"entries": [
+						"You can speak telepathically to any creature within 30 feet of you. They understand you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mind Reading",
+					"entries": [
+						"You can cast the {@spell Detect Thoughts} spell a number of times per day equal to your proficiency modifier, but you can only pick up surface thoughts. If a creature is aware of the dohwar's telepathy, they can make an Intelligence saving throw to resist the effect. While reading a creature's surface thoughts, you have advantage on social rolls against the target."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Skillful. Adventurous. Graceful. These are words that few would use to describe the dohwar. These heavily feathered and flightless birds resemble large and lean penguins. They are highly motivated traders with a passion for mercantilism, engaged in an endless trade war against their Great Rival: the arcane. To date, the arcane have yet to notice.",
+					{
+						"type": "entries",
+						"name": "Clumsy Birds",
+						"entries": [
+							"If all someone knew about dohwar is that they were avian, it might lead them to think that dohwar are highly dextrous like other avian creatures. This is anything but the truth. Dohwar tend to be incredibly clumsy and sluggish in their movements. They have small bodies which work against the few of them that decide to take up a life of martial combat. The few who do push past these limits and become warriors often end up becoming members of the 'legendary' Deathsqueeler Legion, an army of space swine riding dohwar with bravery that is easily mistaken for reckless insanity."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Unusual Merchants",
+						"entries": [
+							"Given the prevailing culture for dohwar in the Known Spheres is highly mercantile, one could be forgiven for expecting them to have a gift for persuasion. This is also not the case. Dohwar tend to forego social grace in favor of developing highly aggressive personality traits that often come across as off-putting to others. More than a few travelers have found themselves in the position of having a group of dohwar repeatedly reciting prices for their products, shouting over the other dohwar, all while offering prices for valuable items the customer might have. A dohwar merchant doesn't really haggle or strike deals as much as they keep shouting prices until their target buys something. What's odd is that this sales method seems to work."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Secretly Organized",
+						"entries": [
+							"Few know that the dohwar are a telepathic species, able to quickly and efficiently communicate with one another, even while they are screaming trade offers at a customer. They can even use this telepathy to read the minds of others, giving them a distinct advantage in making a deal. Dohwar use this secret telepathy, their disheveled appearance, and their unusual style to exploit others in trade. However messy and poorly organized they appear to others, they are actually an incredibly well organized trade machine that thoroughly believes every other group out there is out to get them. This high degree of paranoia and organization has helped make the dohwar incredibly successful, much to the confusion of others."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/dohwar.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": "Dohwar"
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"ritual": [
+								"detect magic",
+								"identify"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Dracon",
+			"source": "WJMAiS",
+			"page": 11,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 40
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Aggressive Friendliness",
+					"entries": [
+						"You have proficiency in the {@skill Persuasion} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Communal",
+					"entries": [
+						"During a long rest, you visit each of your companions to build camaraderie. Choose up to 6 friendly creatures you are spending the rest with at a campsite, inn, etc. Each of these creatures gains temporary hit points equal to your level on the following day."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equine Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push or drag. In addition, any climb that requires hands and feet is especially difficult for you because of your legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mount",
+					"entries": [
+						"Your quadruped anatomy allows you to act as a mount for a creature of Small size or smaller. While mounted, your rider may take their turn simultaneous with yours. If they do, they forego their normal turn this round. A rider can't move other than to dismount."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Weapon",
+					"entries": [
+						"Your feet count as natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier instead of the normal damage for an unarmed strike."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"The dracon are a new species to the spheres that some refer to as dragon centaurs. They have the body, tail, and flat feet of a brontosaur, the arms and torso of a human, and finally the head of a dragon.",
+					{
+						"type": "entries",
+						"name": "Aggressively Friendly",
+						"entries": [
+							"No one in the known spheres is fully aware of where the dracon have come from. They simply started showing up at the edges of the known spheres a century ago. What is known about them is that from the first meeting, the dracon have been rather friendly and open to working with the people of other species found among the stars."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Herd Instincts",
+						"entries": [
+							"Dracon tend to be vegetarians with a strong communal instinct, rarely found alone. The communal urge that dracon often feel can sometimes even manifest in being physically ill when separated from their family. Those forced into this position by fate or circumstance often end up finding a new community to belong to, dracon or otherwise. It's not rare to find a reasonably adventurous dracon to adopt an adventuring party as their new family."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Complex Kinship",
+						"entries": [
+							"The leader of a herd of dracon is known as a 'kaba'. A kaba isn't chosen for being the strongest or the quickest or the wisest of the herd, but rather through a complex system of genealogy. This system has baffled sages from across the spheres for its complexity, yet the dracon find it to be quite simple."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/dracon.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"persuasion": true
+				}
+			]
+		},
+		{
+			"name": "Giff",
+			"source": "WJMAiS",
+			"page": 12,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gunpowder Training",
+					"entries": [
+						"You are proficient with and ignore the loading property of gunpowder firearms. Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls with firearms. The backfire score of any ship weapon you use as a Gunner is reduced by 1."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headfirst Charge",
+					"entries": [
+						"If you move at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, you may attempt to shove that creature as a bonus action. Once you've used this trait, you are discombobulated and you can't use it again until you complete a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Standing upwards of 8 to 9 feet tall, giff (sometimes 'hippofolk') are a large, bulky, and muscular race of well-dressed and posh humanoid hippopotami. They have a well deserved reputation as mercenaries, boasting strong military efficiency, bravery that some might call suicidal, and loyalty to a fault, so long as the job pays well, doesn't break their cultural codes, and it pays in their preferred currency: gunpowder.",
+					{
+						"type": "entries",
+						"name": "Guns Are Their Religion",
+						"entries": [
+							"The giff have an unrivaled passion for gunpowder and explosions. Although they handle firearms and explosives with expert efficiency, they don't really outgrow that child-like glee at seeing something explode. The brighter the flash, the louder the bang, the stronger the burst of flame, the happier the giff."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Surprising Grace",
+						"entries": [
+							"While most folk can quickly tell that a giff is stocky and muscular, what catches most people by surprise is how quick and graceful they can be. An ignorant foe might size up a giff and assume them to be a lumbering and sluggish foe, akin to an ogre. When the fight starts, what they find is that a giff's sizable frame is no hindrance to their speed and fluidity of motion."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Loyalty",
+						"entries": [
+							"Giff are reputed for their loyalty to a contract holder, being willing to handle even the most dangerous jobs so long as they are fittingly paid in gunpowder for it. Nevertheless, there is one major exception: giff won't fire upon other giff."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/giff.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": "Giff",
+					"anyStandard": 1
+				}
+			],
+			"traitTags": [
+				"Powerful Build"
+			]
+		},
+		{
+			"name": "Hadozee",
+			"source": "WJMAiS",
+			"page": 13,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Prehensile Feet",
+					"entries": [
+						"As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Monkey Fighting",
+					"entries": [
+						"When you make a melee weapon attack on your turn while climbing, you can increase the reach of a single attack by 5 feet. In addition, you can take the disengage action as a bonus action while climbing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glide",
+					"entries": [
+						"When you fall at least 10 feet above the ground, you can use your reaction to extend your skin membranes to glide horizontally a number of feet equal to your walking speed, and you take 0 damage from the fall. You determine the direction of the glide."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Hadozee, often referred to as \"deck apes\", are a species of tall and slender ape-like creatures covered in shaggy hair, often with a thick mane, a protruding or flat snout, and bat-like membranes that connect their arms, body, and legs.",
+					{
+						"type": "entries",
+						"name": "Natural Sailors",
+						"entries": [
+							"Hadozee tend to have a strong urge to explore the world around them, to seek the horizon, to find what lies just beyond the range of their sight. Early on this drove them to explore their forest home world, which lead to a mastery of tree-top mobility. Their mobility, their mastery, and their passion to explore make hadozee some of the most sought after sailors in the Known Spheres."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Fully Prehensile",
+						"entries": [
+							"Unlike most humanoids, hadozee are fully prehensile. With both their hands and their feet they can grasp onto ropes, pick up objects, climb ladders, use weapons, and so on. Aboard a ship, this allows a hadozee to climb ropes while still retaining the full use of a pair of hands; a truly valuable trait to any sailor on the sea of night."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Elf Friends",
+						"entries": [
+							"The Elven Imperial Navy is known for embodying elvish arrogance. They often look down on other species they come across, like humans, dwarves, and orcs. The hadozee are one of the few they hold in high esteem."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/hadozee.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			]
+		},
+		{
+			"name": "Mind Flayer Renegade",
+			"source": "WJMAiS",
+			"page": 13,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"aberration"
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Aberration."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Telepathy",
+					"entries": [
+						"You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mind Blast",
+					"entries": [
+						"As an action, you can release a blast of psionic energy in a 15-foot cone. All creatures in that cone must make an Intelligence saving throw (DC = 8 + your proficiency bonus + your Intelligence modifier). On a failed save, a creature takes {@dice 2d8} psychic damage. This damage increases by {@dice 1d8} at 5th level ({@dice 3d8}) and 17th level ({@dice 4d8}). Starting at 11th level, creatures who fail their saving throw are {@condition stunned} until the end of your next turn.",
+						"You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Devour Brain",
+					"entries": [
+						"When you devour the brain of an intelligent creature, you can acquire memories that the creature had in life. When you do, you gain proficiency in a skill or tool of your choice that the creature had. When you use this ability again, you can replace this proficiency with another from the new brain. In addition, with DM approval, you can also gather information from the creature's memory, as if casting {@spell Speak With Dead}."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Mind flayers, sometimes known as illithids, are among the oldest and most evil creatures in the multiverse. Their appearance is that of a humanoid with a squidlike face. They are known for their subjugation of other species, devouring the brains of intelligent creatures, and reproducing by transforming humanoids through a terribly painful process known as ceremorphosis.",
+					{
+						"type": "entries",
+						"name": "Future History",
+						"entries": [
+							"Legend has it that mind flayers come from the end of time. In this timeline, mind flayers managed to subjugate all of the Material Plane and bring the Astral Sea to its knees before their power. With this total control, the gods themselves died from a lack of worship."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Renegades",
+						"entries": [
+							"Following the purge of so many elder brains, many illithids found themselves free of an elder brain's control for the first time. While some just went and joined other colonies, many decided to remain free. They learned that they didn't require eating brains to survive, just to feed the elder brain. Now free of that control, these mind flayer renegades look to find new purpose in an often hostile universe."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/mind-flayer-renegade.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true,
+					"deep speech": true
+				}
+			],
+			"traitTags": [
+				"Darkvision"
+			]
+		},
+		{
+			"name": "Plasmoid",
+			"source": "WJMAiS",
+			"page": 14,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"ooze"
+			],
+			"size": [
+				"M",
+				"S"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Ooze."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amorphous",
+					"entries": [
+						"You can squeeze through a space as narrow as 1 inch wide, provided you are not wearing or carrying anything. In addition, you have advantage on ability checks you make to initiate or escape a grapple."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Resilience",
+					"entries": [
+						"You have resistance to acid and poison damage, and you have advantage on saving throws against being {@condition poisoned}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shape Self",
+					"entries": [
+						"As an action, you can reshape your body to assume a humanoid form with a head, up to two arms, and up to two legs, or revert to a limbless blob. While in a humanoid form, you can wear clothing and armor made for a Humanoid of your size.",
+						"As a bonus action, you can extrude or retract a pseudopod up to 10 feet long and 6 inches wide. You can use this pseudopod to manipulate objects, open or close doors or containers, or pick up or set down a Tiny object. The pseudopod can't attack, activate magic items, or lift more than 10 pounds."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Plasmoids are amorphous beings with no typical shape. In the presence of other folk, they often adopt a similar shape, but there's little chance of mistaking a plasmoid for anything else. They consume food by osmosis, the way an amoeba does, and excrete waste through tiny pores. They breathe by absorbing oxygen through another set of pores, and their limbs are strong and flexible enough to grasp and manipulate weapons and tools. Although most plasmoids are translucent gray, they can alter their color and translucence by absorbing dyes through their pores.",
+					"Plasmoids don't have internal organs of the usual sort. Their bodies are composed of cells, fibers, plasma-like ooze, and clusters of nerves. These nerves enable a plasmoid to detect light, heat, texture, sound, pain, and vibrations. Plasmoids can stiffen the outer layers of their bodies to maintain a humanlike shape, so they can wear clothing and accessories. They speak by forcing air out of tubular cavities that constrict to produce sound.",
+					"When plasmoids sleep, they lose their rigidity and spread out and are thus sometimes mistaken for a rock or some other feature of the environment."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/plasmoid.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"traitTags": [
+				"Darkvision"
+			]
+		},
+		{
+			"name": "Scro",
+			"source": "WJMAiS",
+			"page": 15,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"The battles you need yet to fight are many, and death is not an option. When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You regain the use of this feature when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glory Kill",
+					"entries": [
+						"Scro warriors are known for digging their teeth into their foes and ripping flesh, bolstering their resolve for battle. As a bonus action, you can make a special melee weapon attack with your teeth. You are proficient with this attack. If you hit, you deal piercing damage equal to {@dice 1d6} + your Strength modifier and you gain temporary hit points equal to your proficiency bonus. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Scro appear almost identical to their orcish cousins, though they tend to be more articulate and have better posture. They retain their orcish strength in spite of having lost their more reckless aggression. This makes them appear far closer to soldiers in an army than grunts of a ferocious horde.",
+					{
+						"type": "entries",
+						"name": "A Lost War",
+						"entries": [
+							"For as long as any sage can remember, elves have been in a constant state of war against orcs, or more generally goblinoids. About a thousand years ago, this conflict reached the spheres in an event known as the First Unhuman War. This war raged across numerous spheres and resulted in an Elven Imperial Navy victory, with the goblinoids being driven out of the known spheres."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "A War Rekindled",
+						"entries": [
+							"About a decade ago, orcish ships showed up on the periphery of the known spheres, attacking Elven Imperial Navy outposts and bases. The attack came fast, catching the complacent elves by surprise. These orcish ships were like nothing they had ever seen before. It wasn't long until they learned that these attackers called themselves the scro and that their goal was to bring down the Elven Imperial Navy in its entirety. Thus began the Second Unhuman War."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "A New Future",
+						"entries": [
+							"The scro are here to stay. They have taken back their home worlds and are standing strong against the Elven Imperial Navy. The scro have now turned their attention to freeing more of their groundling counterparts from the tyranny of Gruumsh's savage designs."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/scro.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true,
+					"elvish": true
+				}
+			],
+			"traitTags": [
+				"Darkvision"
+			]
+		},
+		{
+			"name": "Thri-Kreen",
+			"source": "WJMAiS",
+			"page": 16,
+			"lineage": "VRGR",
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"size": [
+				"M",
+				"S"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chameleon Carapace",
+					"entries": [
+						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
+						"In addition, you have advantage on Dexterity ({@skill Stealth}) checks made to {@action hide} in natural terrain."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Secondary Arms",
+					"entries": [
+						"You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sleepless",
+					"entries": [
+						"You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest. You have advantage on saving throws against being magically put to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thri-kreen Telepathy",
+					"entries": [
+						"You cannot speak non-thri-kreen languages verbally. Instead, you can communicate telepathically with willing creatures you can see within 120 feet. The creature must be able to understand at least one language. This telepathic connection requires no action and ends if either of you is {@condition incapacitated}, if you move more than 120 feet apart, or if either of you chooses to end it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psychic Fortitude",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed} or {@condition frightened} by effects that deal psychic damage."
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Thri-kreen have insectile features and two pairs of arms. Their bodies are encased in protective chitin. They can alter the coloration of this carapace to blend in with their natural surroundings.",
+					"Although thri-kreen don't sleep, they do require periods of inactivity to revitalize themselves. During these periods, they are fully aware of what's happening around them.",
+					"Thri-kreen speak by clacking their mandibles and waving their antennae, indicating to other thri-kreen what they are thinking and feeling. Other creatures find this method of communication difficult to interpret and impossible to duplicate. To interact with other folk, thri-kreen rely on a form of telepathy."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/thri-kreen.png"
+						}
+					}
+				]
+			},
+			"traitTags": [
+				"Darkvision",
+				"Natural Armor"
+			]
+		},
+		{
+			"name": "Xixchil",
+			"source": "WJMAiS",
+			"page": 15,
+			"lineage": "VRGR",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chitinous Frame",
+					"entries": [
+						"Your hardened exoskeleton provides natural protection. While you aren't wearing armor, your AC is 13 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Surgical Artistry",
+					"entries": [
+						"You gain proficiency in {@skill Medicine} and one artisan's tool of your choice.",
+						"In addition, during a long rest, you may visibly integrate ornamental materials, plating, or trophies into your body. This has no mechanical effect unless stated otherwise, but integrated items cannot be removed from you unwillingly."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mantid Blades",
+					"entries": [
+						"Your lower forelimbs are natural weapons. They are melee weapons with the finesse and light properties.",
+						"On a hit, they deal {@dice 1d4} slashing damage + your Strength or Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Biological Augmentation",
+					"entries": [
+						"You have enhanced your body through invasive modification. Choose one augmentation below. At 5th level, your chosen augmentation improves.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Buzzing Wings",
+									"entries": [
+										"{@b 1st level:} When you fall and are not {@condition incapacitated}, you can use your reaction to glide. When you do so, you reduce the falling damage you take by an amount equal to 30 feet, to a minimum of 0 damage, and you can move up to 30 feet horizontally before landing.",
+										"{@b 5th level:} As part of your movement on your turn, you can fly up to your walking speed."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Silk Spinneret",
+									"entries": [
+										"{@b 1st level:} During a short or long rest, you can create up to 50 feet of silk rope or a net.",
+										"{@b 5th level:} You can also create fine silk garments, bindings, or similar items worth up to 30 gp during the same rest."
+									]
+								},
+								{
+									"type": "item",
+									"name": "Venom Gland",
+									"entries": [
+										"{@b 1st level:} When you hit a creature with your mantid blades, you can deal an extra {@dice 1d4} poison damage once per turn.",
+										"{@b 5th level:} A creature damaged this way must succeed on a Constitution saving throw or be {@condition poisoned} until the start of your next turn. You can trigger this effect a number of times equal to your proficiency bonus per long rest."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Xixchil are six-limbed praying mantis-like mantoids. They are a bipedal species with a chitin exoskeleton. They have two pairs of forelimbs, the upper pair that extend out like normal humanoid arms, and a lower pair that take the shape of sharp, mantis-like blades.",
+					{
+						"type": "entries",
+						"name": "Survival of the Fittest",
+						"entries": [
+							"The xixchil grew up on a Life world, densely packed with predators. From this start, they have a strong sense in survival of the fittest. This ideology has pervaded their societies and cultures for countless generations, but it hasn't made them cruel. To most, it simply means that it's important for every lifeform to improve itself and grow."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "The Body is a Home",
+						"entries": [
+							"This mentality has extended to the belief that bodies should be treated as the home of the soul. Like a home, one should not only improve it, but also make it an expression of the person within. As a result, xixchil embellish their exoskeleton with rich jewels, gems, armor, ornaments, and whatever else the xixchil believes expresses their uniqueness."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Born Surgeons",
+						"entries": [
+							"This passion for development and physical advancement has resulted in many xixchil developing a handy skill for surgery. While they adorn their own bodies with riches, they encourage other folk to do the same. Some specialist xixchil have gone as far as to develop techniques for replacing humanoid body parts with others. Many adventurers have gone to see a xixchil surgeon to replace or add a body part."
+						]
+					},
+					{
+						"type": "entries",
+						"name": "Expert Artisans",
+						"entries": [
+							"Although xixchil are best known for their surgeons, xixchil tend to love craftsmanship of all kinds. Surgeons craft bodies, while other artisans might assemble trinkets, or magical items, or beautiful artistic armor. No craft is looked down upon in xixchil society, as they are all some form of artistic expression of the unique xixchil artisan."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/leshicodes/the-wild-expanse-wiki/refs/heads/main/player%20options/races/xixchil.png"
+						}
+					}
+				]
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": "Xixchil",
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			]
+		}
+	],
 	"spell": [
 		{
 			"name": "Aether Cloud",
@@ -15978,6 +15978,113 @@
 				]
 			},
 			"tokenUrl": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/WJMAiS/tsunami-token.webp"
+		}
+	],
+	"background": [
+		{
+			"name": "Delinquent",
+			"source": "WJMAiS",
+			"skillProficiencies": [
+				{
+					"sleight of hand": true,
+					"stealth": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true,
+					"anyGamingSet": 1
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"item": "dagger|phb",
+							"quantity": 2
+						},
+						"thieves' tools|phb",
+						"crowbar|phb",
+						{
+							"equipmentType": "setGaming"
+						},
+						{
+							"special": "a small, disguised \"stash\" box"
+						},
+						"traveler's clothes|phb",
+						{
+							"value": 1600
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"value": 5000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Description",
+					"entries": [
+						"Adapted from the {@background Criminal|PHB} background, the Delinquent has a similar scope of trouble-making with no professional veneer. The Delinquent might aspire to be a Criminal, but lacks the skills, connections, or drive to make any true career of it. One might classify them as an Urchin, but they'd have to be an orphan for that. No, the Delinquent isn't trying to escape desperate poverty or circumstances; instead, they engage in petty crime for the simple pleasure of being petty. See also: trouble-maker, rabble-rouser, punk."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feat",
+					"entries": [
+						"{@i \"If you're going to be stupid, you better be tough.\"}",
+						"Pick one of the following feats: {@feat Tough|PHB}, {@feat Alert|XPHB}, {@feat Durable|PHB}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flaw",
+					"entries": [
+						"The Delinquent's worst enemy is themselves. Whether it's poor judgement, a need for attention, or an adrenaline addiction, they have an unfailing ability to make a bad situation worse.",
+						"Pick a situation from the chart, or roll a d4. Anytime your character is in said situation, roll a d10. On a Nat 1, you must do something that will cause trouble. (Optional: With significant character growth, and DM's discretion, you may agree to change the dice to a d12, or even a d20.)",
+						{
+							"type": "table",
+							"colLabels": [
+								"d4",
+								"Trigger Situation"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Issues with authority—An authority figure lays down the law."
+								],
+								[
+									"2",
+									"Unsupervised—no one is around to see you do it, so you might as well try."
+								],
+								[
+									"3",
+									"Bored to death—A formal event, bureaucratic office, or dragging conversation."
+								],
+								[
+									"4",
+									"Attention-seeking—You are being ignored; OR, you really want to be noticed by someone."
+								]
+							]
+						}
+					]
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"hasFluff": true
 		}
 	]
 }
