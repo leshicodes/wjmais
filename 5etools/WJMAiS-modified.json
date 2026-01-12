@@ -14,7 +14,7 @@
 					"LeshiCodes"
 				],
 				"url": "https://wiki.spelljammer.leshicodes.info",
-				"version": "0.98.2",
+				"version": "0.98.3",
 				"targetSchema": "1.0.0"
 			}
 		],
@@ -16082,6 +16082,153 @@
 			"feats": [
 				{
 					"any": 1
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Scrapforged",
+			"source": "WJMAiS",
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Warforged"
+						}
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"smith's tools",
+							"tinker's tools",
+							"carpenter's tools"
+						],
+						"count": 1
+					}
+				}
+			],
+			"startingEquipment": [
+				{
+					"_": [
+						{
+							"special": "a battered set of tools tied together with wire"
+						},
+						{
+							"special": "a sack of scrap parts: bolts, plates, hinges, springs"
+						},
+						{
+							"special": "worn travel clothes reinforced with mismatched metal"
+						},
+						{
+							"special": "one recognizable piece from your original construction"
+						},
+						{
+							"value": 1000
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Description",
+					"entries": [
+						"You weren't built in a clean workshop with blueprints and polish. You were thrown together. Bent iron. Broken tools. Armor plates that used to belong to someone else. Whoever made you needed something that could stand up and move, not something that would last forever.",
+						"And it worked. Mostly.",
+						"Your body holds because you keep it holding. When fights get bad, things tear loose. An arm pops free at the shoulder. A leg locks up. Plates crack and hang by wire. You don't bleed, but you do come apart. Then later, by a fire or a workbench, you put yourself back together with whatever you can find.",
+						"You are never the same shape twice for very long."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feat: Tough",
+					"entries": [
+						"You gain the {@feat Tough|PHB} feat from the Player's Handbook."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Feat: Held Together Enough",
+					"entries": [
+						"Your body works because it has to.",
+						"When you take {@b serious damage} (DM trigger examples: a critical hit, losing half your HP in one hit, or dropping to 0 HP), something gives. The DM can roll or choose from the Scrap Complications table below.",
+						"This never steals your turn or shuts you down completely. It makes the fight messier, not unplayable.",
+						{
+							"type": "table",
+							"caption": "Scrap Complications",
+							"colLabels": [
+								"d6",
+								"Outcome"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Arm Comes Loose.} Anything in that arm drops. Two-handed weapons can't be used until fixed."
+								],
+								[
+									"2",
+									"{@b Leg Joint Warped.} Disadvantage on Dexterity checks."
+								],
+								[
+									"3",
+									"{@b Chest Plate Cracked.} Your AC is reduced by 1 until repaired."
+								],
+								[
+									"4",
+									"{@b Sensors Knocked Out of Alignment.} Disadvantage on the next Perception check that relies on sight or hearing."
+								],
+								[
+									"5",
+									"{@b Gears Jammed.} You can't take reactions until repaired."
+								],
+								[
+									"6",
+									"{@b Everything's Loose.} No combat penalty, but you clank and rattle. Disadvantage on the next Stealth check."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Repairs and Replacements",
+					"entries": [
+						"Fixing yourself is normal. Expected, even.",
+						"You remove one {@b Scrap Complication} by any of the following:",
+						{
+							"type": "list",
+							"items": [
+								"Someone casts {@spell Mending|PHB} on you",
+								"An artificer helps you during a short rest",
+								"You work on yourself during a long rest, as long as you have basic tools and scrap"
+							]
+						},
+						"If a limb is fully torn off, you can rebuild it during a long rest. The replacement works fine. It never looks quite right.",
+						"No gold cost unless the DM wants it to matter in the story."
+					]
+				}
+			],
+			"feats": [
+				{
+					"tough|phb": true
 				}
 			],
 			"hasFluff": true
